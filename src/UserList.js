@@ -20,8 +20,9 @@ class UserList extends Component {
     render() {
         return (
             <div>
-                {this.state.users.map(users => <h6 key={users.id}>{users.name}</h6>)}
+                {this.state.users.map(users => <h6 key={users.id}>{users.email}</h6>)}
             </div>
+            
 
         )
     }
